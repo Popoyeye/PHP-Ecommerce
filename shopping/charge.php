@@ -19,7 +19,7 @@ require  "../vendor/autoload.php";
 
     if(isset($_POST['email'])) {
 
-        \Stripe\Stripe::setApiKey('sk_test_51PeAiSGmDqqbwnlQw8Sxbxzj3A2xePknfrwdjYD8t5DLS7SAcD8x5if0YAodvutWaEDtn3Pm9qjFq9BkXLsZk5iN00OfNHbeNk');
+        \Stripe\Stripe::setApiKey('');
 
         $charge = \Stripe\Charge::create([
 
